@@ -1,0 +1,67 @@
+{
+  "collectionName": "components_company_info_company_infos",
+  "info": {
+    "displayName": "CompanyInfo"
+  },
+  "options": {},
+  "attributes": {
+    "CompanyLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "InternetLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Twitter": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "LinkedIn": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Name": {
+      "type": "string"
+    },
+    "About_Company": {
+      "type": "richtext"
+    },
+    "Founder": {
+      "type": "string"
+    },
+    "Founder_Name": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

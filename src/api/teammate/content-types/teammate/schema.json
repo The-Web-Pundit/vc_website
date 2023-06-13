@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teammates",
+  "info": {
+    "singularName": "teammate",
+    "pluralName": "teammates",
+    "displayName": "Teammate",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Role": {
+      "type": "string"
+    },
+    "BW_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "LinkedInLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ColorImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Bio": {
+      "type": "richtext"
+    },
+    "Writter": {
+      "type": "string"
+    },
+    "Activity": {
+      "type": "string"
+    },
+    "Activities": {
+      "displayName": "Activity",
+      "type": "component",
+      "repeatable": true,
+      "component": "activity.activity"
+    },
+    "About": {
+      "type": "richtext"
+    }
+  }
+}

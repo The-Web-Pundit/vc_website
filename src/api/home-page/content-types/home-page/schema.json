@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BannerHeading": {
+      "type": "text"
+    },
+    "BannerDesc": {
+      "type": "text"
+    },
+    "BannerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "btn1": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "section2Heading": {
+      "type": "text"
+    },
+    "section2Desc": {
+      "type": "text"
+    },
+    "ShipsyHeading": {
+      "type": "string"
+    },
+    "ShipsyDesc": {
+      "type": "text"
+    },
+    "btn2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "Info": {
+      "displayName": "Info",
+      "type": "component",
+      "repeatable": true,
+      "component": "information.info"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    }
+  }
+}

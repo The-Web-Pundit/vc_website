@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_information_infos",
+  "info": {
+    "displayName": "Info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "text"
+    },
+    "label1": {
+      "type": "string"
+    },
+    "url1": {
+      "type": "string"
+    },
+    "label2": {
+      "type": "string"
+    },
+    "url2": {
+      "type": "string"
+    }
+  }
+}

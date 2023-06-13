@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_our_values_our_values",
+  "info": {
+    "displayName": "our_values"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Desc": {
+      "type": "richtext"
+    }
+  }
+}
