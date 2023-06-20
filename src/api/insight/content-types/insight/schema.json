@@ -4,7 +4,8 @@
   "info": {
     "singularName": "insight",
     "pluralName": "insights",
-    "displayName": "Insight"
+    "displayName": "Insight",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +16,15 @@
       "type": "string"
     },
     "FilterImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Filter": {
       "type": "string"
@@ -41,6 +43,16 @@
       "type": "component",
       "repeatable": false,
       "component": "button.button"
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

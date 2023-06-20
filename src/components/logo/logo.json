@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_logo_logos",
+  "info": {
+    "displayName": "logo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socialLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logoname": {
+      "type": "string"
+    }
+  }
+}

@@ -18,7 +18,12 @@
     "Role": {
       "type": "string"
     },
-    "BW_Image": {
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "ColorImage": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -29,47 +34,26 @@
         "audios"
       ]
     },
-    "category": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::category.category"
-    },
-    "LinkedInLogo": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "ColorImage": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "Bio": {
+    "About1": {
       "type": "richtext"
     },
-    "Writter": {
-      "type": "string"
+    "PopUpImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
-    "Activity": {
-      "type": "string"
-    },
-    "Activities": {
-      "displayName": "Activity",
+    "socialLogo": {
       "type": "component",
       "repeatable": true,
-      "component": "activity.activity"
+      "component": "logo.logo"
     },
-    "About": {
+    "About2": {
       "type": "richtext"
     }
   }
