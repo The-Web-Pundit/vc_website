@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "text"
+      "type": "text",
+      "default": "Cyfirma Raises $5.5M In Pre-Series B Round led by Ourcrowd, L&T Innovation Fund"
     },
     "Image": {
       "type": "media",
