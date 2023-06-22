@@ -4,7 +4,8 @@
   "info": {
     "singularName": "pitch",
     "pluralName": "pitches",
-    "displayName": "Pitch"
+    "displayName": "Pitch",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,19 +13,22 @@
   "pluginOptions": {},
   "attributes": {
     "Name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Email": {
-      "type": "email"
+      "type": "email",
+      "required": true
     },
-    "LinkedIn_Profile": {
+    "LinkedIn": {
       "type": "string"
     },
-    "CompanyName": {
+    "Company": {
       "type": "string"
     },
-    "DropYourIdea": {
-      "type": "richtext"
+    "Idea": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
