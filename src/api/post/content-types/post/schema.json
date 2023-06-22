@@ -43,6 +43,10 @@
     "desc": {
       "type": "richtext",
       "default": "Prior to founding Z3Partners Tech Fund, Gautam has been the co-founder of Zodius Technology Fund and Zodius Technology Opportunities Fund, successful early-growth stage Private Equity Funds with a track record of investing in industry leaders (Investee Companies: Antuit (sold to Zebra Technologies) BigBasket (sold to TATA), Pepperfry (sold to secondary Fund), OfBusiness (partial sale to Tiger Global), Medgenome (partial sale to IFC), Zivame (sold to Reliance Industries), Cyfirma, etc). Prior to Zodius, Gautam was the Managing Director and Head of India for Battery Ventures, a Venture Capital and Private Equity Fund (Investee Companies: TechProcess (sale to Ingenico), etc.). Prior to that he was part of the leadership team at iGATE, a Nasdaq-listed IT and BPO Services Company. At iGATE, Gautam and the core executive team turned the business around from 3% margins to 18%+ in four years. Gautam also worked as Vice President at eVentures India, an early stage Venture Capital Fund backed by Softbank and Newscorp (Investee Companies: MakeMyTrip (IPO), NetMagic (sale to NTT), FirstSource (IPO), etc.). Prior to this, Gautam was part of the investment team at IndOcean Chase Capital, being one of the earliest growth stage Private Equity Funds in India (Investee Companies: HDFC Bank, Domino’s Pizza, etc.). Gautam started his career in Investment Banking in the US with Lazard Freres. He holds a Bachelor's degree in Computer Science from the University of Texas at Austin."
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

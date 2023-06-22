@@ -19,14 +19,15 @@
       "type": "richtext"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "ImageHeading": {
       "type": "string"
@@ -46,6 +47,9 @@
       "type": "component",
       "repeatable": true,
       "component": "our-partner.our-partners"
+    },
+    "slug": {
+      "type": "uid"
     }
   }
 }
