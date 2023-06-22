@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * tesing router
+ * pitch router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::tesing.tesing');
+module.exports = createCoreRouter('api::pitch.pitch');

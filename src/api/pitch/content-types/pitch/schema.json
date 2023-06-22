@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pitches",
+  "info": {
+    "singularName": "pitch",
+    "pluralName": "pitches",
+    "displayName": "Pitch"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "LinkedIn_Profile": {
+      "type": "string"
+    },
+    "CompanyName": {
+      "type": "string"
+    },
+    "DropYourIdea": {
+      "type": "richtext"
+    }
+  }
+}

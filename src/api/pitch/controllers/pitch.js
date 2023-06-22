@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * tesing controller
+ * pitch controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::tesing.tesing');
+module.exports = createCoreController('api::pitch.pitch');

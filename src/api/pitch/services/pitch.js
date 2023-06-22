@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * tesing service
+ * pitch service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::tesing.tesing');
+module.exports = createCoreService('api::pitch.pitch');
