@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "tesings",
+  "info": {
+    "singularName": "tesing",
+    "pluralName": "tesings",
+    "displayName": "tesing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
