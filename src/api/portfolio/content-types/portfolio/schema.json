@@ -15,7 +15,7 @@
     "Heading": {
       "type": "text"
     },
-    "desc": {
+    "Desc": {
       "type": "richtext"
     },
     "FlipPage": {

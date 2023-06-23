@@ -32,12 +32,12 @@
     "Filter": {
       "type": "string"
     },
-    "categories": {
+    "Categories": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::category.category"
     },
-    "teammates": {
+    "Ceammates": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::teammate.teammate"
