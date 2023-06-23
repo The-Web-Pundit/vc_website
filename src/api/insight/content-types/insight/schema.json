@@ -29,17 +29,17 @@
     "Filter": {
       "type": "string"
     },
-    "tags": {
+    "Tags": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tag.tag"
     },
-    "button": {
+    "Button": {
       "type": "component",
       "repeatable": false,
       "component": "button.button"
     },
-    "bgImage": {
+    "BackgroundImage": {
       "type": "media",
       "multiple": false,
       "required": false,

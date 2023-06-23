@@ -29,16 +29,16 @@
         "audios"
       ]
     },
-    "btn1": {
+    "Button1": {
       "displayName": "Button",
       "type": "component",
       "repeatable": false,
       "component": "button.button"
     },
-    "section2Heading": {
+    "Section1Heading": {
       "type": "text"
     },
-    "section2Desc": {
+    "Section1Desc": {
       "type": "text"
     },
     "ShipsyHeading": {
@@ -47,18 +47,18 @@
     "ShipsyDesc": {
       "type": "text"
     },
-    "btn2": {
+    "Button2": {
       "type": "component",
       "repeatable": false,
       "component": "button.button"
     },
-    "Info": {
+    "Information": {
       "displayName": "Info",
       "type": "component",
       "repeatable": true,
       "component": "information.info"
     },
-    "card": {
+    "Card": {
       "type": "component",
       "repeatable": true,
       "component": "card.card"
