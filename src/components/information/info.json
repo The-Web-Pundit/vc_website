@@ -9,16 +9,16 @@
     "Heading": {
       "type": "text"
     },
-    "label1": {
+    "Label1": {
       "type": "string"
     },
-    "url1": {
+    "Url1": {
       "type": "string"
     },
-    "label2": {
+    "Label2": {
       "type": "string"
     },
-    "url2": {
+    "Url2": {
       "type": "string"
     }
   }

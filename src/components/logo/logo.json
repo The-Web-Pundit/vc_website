@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "socialLogo": {
+    "SocialLogo": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -17,7 +17,7 @@
         "audios"
       ]
     },
-    "logoname": {
+    "LogoName": {
       "type": "string"
     }
   }

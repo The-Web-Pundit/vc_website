@@ -32,10 +32,10 @@
     "ImageHeading": {
       "type": "string"
     },
-    "our_values": {
+    "OurValuesTitle": {
       "type": "string"
     },
-    "ourValues": {
+    "OurValues": {
       "type": "component",
       "repeatable": true,
       "component": "our-values.our-values"
@@ -43,13 +43,10 @@
     "Partner": {
       "type": "string"
     },
-    "our_partner": {
+    "OurPartner": {
       "type": "component",
       "repeatable": true,
       "component": "our-partner.our-partners"
-    },
-    "slug": {
-      "type": "uid"
     }
   }
 }

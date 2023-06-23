@@ -1,66 +1,71 @@
 {
   "collectionName": "components_company_info_company_infos",
   "info": {
-    "displayName": "CompanyInfo"
+    "displayName": "CompanyInfo",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "CompanyLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "InternetLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Twitter": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "LinkedIn": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Name": {
       "type": "string"
     },
-    "About_Company": {
+    "AboutCompany": {
       "type": "richtext"
     },
     "Founder": {
       "type": "string"
     },
-    "Founder_Name": {
+    "FounderName": {
       "type": "string"
     },
-    "button": {
+    "Button": {
       "type": "string"
     },
-    "url": {
+    "Url": {
       "type": "string"
     }
   }

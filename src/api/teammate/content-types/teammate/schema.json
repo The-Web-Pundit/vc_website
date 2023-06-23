@@ -18,7 +18,7 @@
     "Role": {
       "type": "string"
     },
-    "ategory": {
+    "Category": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::category.category"
@@ -48,7 +48,7 @@
         "audios"
       ]
     },
-    "socialLogo": {
+    "SocialLogo": {
       "type": "component",
       "repeatable": true,
       "component": "logo.logo"

@@ -6,11 +6,11 @@
   },
   "options": {},
   "attributes": {
-    "name": {
+    "Name": {
       "type": "string",
       "default": "Read More"
     },
-    "url": {
+    "Url": {
       "type": "string"
     }
   }

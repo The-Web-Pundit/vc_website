@@ -1,25 +1,27 @@
 {
   "collectionName": "components_flip_page_filp_pages",
   "info": {
-    "displayName": "FilpPage"
+    "displayName": "FilpPage",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Title": {
       "type": "string"
     },
-    "desc": {
+    "Desc": {
       "type": "richtext"
     },
     "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }
