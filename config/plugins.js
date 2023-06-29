@@ -121,9 +121,13 @@ module.exports = ({ env }) => (
             "Georgia, serif",
             "Lucida Sans Unicode, Lucida Grande, sans-serif",
             "Tahoma, Geneva, sans-serif",
+            "Studio Pro, Maison Neue,  Canela,  Times, serif",
             "Times New Roman, Times, serif",
             "Trebuchet MS, Helvetica, sans-serif",
             "Verdana, Geneva, sans-serif",
+            "Poppins Regular,Poppins Medium ",
+            'Georgia/Georgia, serif',
+            'Comic Sans MS',
             "Roboto, Roboto Black, Roboto Medium, Roboto Light, sans-serif",
           ],
           supportAllValues: true,
@@ -259,6 +263,23 @@ module.exports = ({ env }) => (
             },
           ],
         },
+      },
+    },
+  },
+  email: {
+    config: {
+      provider: 'nodemailer',
+      providerOptions: {
+        host: 'sandbox.smtp.mailtrap.io',
+        port: 2525,
+        auth: {
+          user: '4b61745517f157',
+          pass: '534265a4d83981'
+        },
+      },
+      settings: {
+        defaultFrom: 'baddelamanikanta2@gmail.com',
+        defaultReplyTo: 'baddelamanikanta2@gmail.com',
       },
     },
   },
