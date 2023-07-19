@@ -1,10 +1,15 @@
 {
-  "collectionName": "components_flip_page_filp_pages",
+  "kind": "collectionType",
+  "collectionName": "investment_portfolios",
   "info": {
-    "displayName": "FilpPage",
-    "description": ""
+    "singularName": "investment-portfolio",
+    "pluralName": "investment-portfolios",
+    "displayName": "Investment Portfolio"
   },
-  "options": {},
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
   "attributes": {
     "Title": {
       "type": "string"
@@ -12,47 +17,46 @@
     "Desc": {
       "type": "richtext"
     },
-    "Image": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
+    "FeatureImage": {
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
-    "Button": {
+    "MainImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "WebsiteButton": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "button.button"
     },
-    "Image2": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "Headquarter": {
-      "displayName": "Headquarter",
       "type": "component",
       "repeatable": false,
       "component": "headquarter.headquarter"
     },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
     "Categories": {
-      "displayName": "Categories",
       "type": "component",
       "repeatable": false,
       "component": "categories.categories"
     },
     "InvestmentYear": {
-      "displayName": "Investment",
       "type": "component",
       "repeatable": false,
       "component": "investment.investment"

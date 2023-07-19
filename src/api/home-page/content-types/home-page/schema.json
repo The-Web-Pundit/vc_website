@@ -41,31 +41,12 @@
     "Section1Desc": {
       "type": "text"
     },
-    "Button2": {
-      "type": "component",
-      "repeatable": false,
-      "component": "button.button"
-    },
-    "Information": {
-      "displayName": "Info",
-      "type": "component",
-      "repeatable": true,
-      "component": "information.info"
-    },
-    "Card": {
-      "type": "component",
-      "repeatable": true,
-      "component": "card.card"
-    },
     "OurPortfolioTitle": {
       "type": "string",
       "default": "Our Portfolio"
     },
-    "Portfolio": {
-      "displayName": "Home Portfolio",
-      "type": "component",
-      "repeatable": true,
-      "component": "portfolio.home-portfolio"
+    "InsightTitle": {
+      "type": "string"
     }
   }
 }

@@ -18,16 +18,16 @@
     "Desc": {
       "type": "richtext"
     },
-    "FlipPage": {
-      "displayName": "FilpPage",
+    "CurrentInvestmentsTitle": {
+      "type": "string"
+    },
+    "PastInvestmentTitle": {
+      "type": "string"
+    },
+    "InvestorLogos": {
       "type": "component",
       "repeatable": true,
-      "component": "flip-page.filp-page"
-    },
-    "ViewAllButton": {
-      "type": "component",
-      "repeatable": false,
-      "component": "button.button"
+      "component": "card.card"
     }
   }
 }
