@@ -1,15 +1,12 @@
 {
-  "collectionName": "components_our_partner_our_partners",
+  "collectionName": "components_features_features",
   "info": {
-    "displayName": "Our-Partners",
+    "displayName": "Features",
     "description": ""
   },
   "options": {},
   "attributes": {
     "Name": {
-      "type": "string"
-    },
-    "Role": {
       "type": "string"
     },
     "Desc": {

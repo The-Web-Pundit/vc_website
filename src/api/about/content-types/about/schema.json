@@ -64,16 +64,6 @@
         }
       }
     },
-    "OurValues": {
-      "type": "component",
-      "repeatable": true,
-      "component": "our-values.our-values",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "Partner": {
       "type": "string",
       "pluginOptions": {
@@ -82,15 +72,25 @@
         }
       }
     },
-    "OurPartner": {
+    "Features": {
       "type": "component",
       "repeatable": true,
-      "component": "our-partner.our-partners",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "features.our-partners"
+    },
+    "OurPartners": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "our-partner.our-partners"
     }
   }
 }
