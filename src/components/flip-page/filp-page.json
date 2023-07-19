@@ -22,6 +22,48 @@
         "videos",
         "audios"
       ]
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button"
+    },
+    "Image2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Headquarter": {
+      "displayName": "Headquarter",
+      "type": "component",
+      "repeatable": false,
+      "component": "headquarter.headquarter"
+    },
+    "Categories": {
+      "displayName": "Categories",
+      "type": "component",
+      "repeatable": false,
+      "component": "categories.categories"
+    },
+    "InvestmentYear": {
+      "displayName": "Investment",
+      "type": "component",
+      "repeatable": false,
+      "component": "investment.investment"
+    },
+    "InvestmentExperianceTitle": {
+      "type": "string"
+    },
+    "InvestorLogos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
     }
   }
 }

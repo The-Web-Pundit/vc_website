@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_investment_investments",
+  "info": {
+    "displayName": "Investment"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Year": {
+      "type": "string"
+    }
+  }
+}

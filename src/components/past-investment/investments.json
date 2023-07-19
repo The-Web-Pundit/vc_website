@@ -1,25 +1,21 @@
 {
   "collectionName": "components_past_investment_investments",
   "info": {
-    "displayName": "Investments"
+    "displayName": "Investments",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "CompanyInfo": {
-      "displayName": "CompanyInfo",
-      "type": "component",
-      "repeatable": true,
-      "component": "company-info.company-info"
+      ]
     }
   }
 }

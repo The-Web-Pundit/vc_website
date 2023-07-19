@@ -1,19 +1,21 @@
 {
   "collectionName": "components_card_cards",
   "info": {
-    "displayName": "card"
+    "displayName": "card",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "CardImage": {
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

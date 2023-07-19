@@ -24,11 +24,10 @@
       "repeatable": true,
       "component": "flip-page.filp-page"
     },
-    "PastInvestment": {
-      "displayName": "Investments",
+    "ViewAllButton": {
       "type": "component",
-      "repeatable": true,
-      "component": "past-investment.investments"
+      "repeatable": false,
+      "component": "button.button"
     }
   }
 }

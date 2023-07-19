@@ -29,7 +29,7 @@
         "audios"
       ]
     },
-    "Button1": {
+    "BannerButton": {
       "displayName": "Button",
       "type": "component",
       "repeatable": false,
@@ -39,12 +39,6 @@
       "type": "text"
     },
     "Section1Desc": {
-      "type": "text"
-    },
-    "ShipsyHeading": {
-      "type": "string"
-    },
-    "ShipsyDesc": {
       "type": "text"
     },
     "Button2": {
@@ -62,6 +56,16 @@
       "type": "component",
       "repeatable": true,
       "component": "card.card"
+    },
+    "OurPortfolioTitle": {
+      "type": "string",
+      "default": "Our Portfolio"
+    },
+    "Portfolio": {
+      "displayName": "Home Portfolio",
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.home-portfolio"
     }
   }
 }

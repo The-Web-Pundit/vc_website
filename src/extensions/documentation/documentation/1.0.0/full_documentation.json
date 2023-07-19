@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-19T06:03:53.355Z"
+    "x-generation-date": "2023-07-19T07:36:32.623Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2711,19 +2711,13 @@
                 ],
                 "example": "string or id"
               },
-              "Button1": {
+              "BannerButton": {
                 "$ref": "#/components/schemas/ButtonButtonComponent"
               },
               "Section1Heading": {
                 "type": "string"
               },
               "Section1Desc": {
-                "type": "string"
-              },
-              "ShipsyHeading": {
-                "type": "string"
-              },
-              "ShipsyDesc": {
                 "type": "string"
               },
               "Button2": {
@@ -2739,6 +2733,15 @@
                 "type": "array",
                 "items": {
                   "$ref": "#/components/schemas/CardCardComponent"
+                }
+              },
+              "OurPortfolioTitle": {
+                "type": "string"
+              },
+              "Portfolio": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/PortfolioHomePortfolioComponent"
                 }
               }
             }
@@ -3421,19 +3424,13 @@
               }
             }
           },
-          "Button1": {
+          "BannerButton": {
             "$ref": "#/components/schemas/ButtonButtonComponent"
           },
           "Section1Heading": {
             "type": "string"
           },
           "Section1Desc": {
-            "type": "string"
-          },
-          "ShipsyHeading": {
-            "type": "string"
-          },
-          "ShipsyDesc": {
             "type": "string"
           },
           "Button2": {
@@ -3449,6 +3446,15 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/CardCardComponent"
+            }
+          },
+          "OurPortfolioTitle": {
+            "type": "string"
+          },
+          "Portfolio": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PortfolioHomePortfolioComponent"
             }
           },
           "createdAt": {
@@ -3550,7 +3556,174 @@
           "id": {
             "type": "number"
           },
-          "CardImage": {
+          "Logo": {
+            "type": "object",
+            "properties": {
+              "data": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "attributes": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "alternativeText": {
+                        "type": "string"
+                      },
+                      "caption": {
+                        "type": "string"
+                      },
+                      "width": {
+                        "type": "integer"
+                      },
+                      "height": {
+                        "type": "integer"
+                      },
+                      "formats": {},
+                      "hash": {
+                        "type": "string"
+                      },
+                      "ext": {
+                        "type": "string"
+                      },
+                      "mime": {
+                        "type": "string"
+                      },
+                      "size": {
+                        "type": "number",
+                        "format": "float"
+                      },
+                      "url": {
+                        "type": "string"
+                      },
+                      "previewUrl": {
+                        "type": "string"
+                      },
+                      "provider": {
+                        "type": "string"
+                      },
+                      "provider_metadata": {},
+                      "related": {
+                        "type": "object",
+                        "properties": {
+                          "data": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "number"
+                                },
+                                "attributes": {
+                                  "type": "object",
+                                  "properties": {}
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "folder": {
+                        "type": "object",
+                        "properties": {
+                          "data": {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "number"
+                              },
+                              "attributes": {
+                                "type": "object",
+                                "properties": {}
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "folderPath": {
+                        "type": "string"
+                      },
+                      "createdAt": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "updatedAt": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "createdBy": {
+                        "type": "object",
+                        "properties": {
+                          "data": {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "number"
+                              },
+                              "attributes": {
+                                "type": "object",
+                                "properties": {}
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "updatedBy": {
+                        "type": "object",
+                        "properties": {
+                          "data": {
+                            "type": "object",
+                            "properties": {
+                              "id": {
+                                "type": "number"
+                              },
+                              "attributes": {
+                                "type": "object",
+                                "properties": {}
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "PortfolioHomePortfolioComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "Title": {
+            "type": "string"
+          },
+          "SubTitle": {
+            "type": "string"
+          },
+          "Button": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "Name": {
+                "type": "string"
+              },
+              "Url": {
+                "type": "string"
+              }
+            }
+          },
+          "Image": {
             "type": "object",
             "properties": {
               "data": {
@@ -5153,11 +5326,8 @@
                   "$ref": "#/components/schemas/FlipPageFilpPageComponent"
                 }
               },
-              "PastInvestment": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/PastInvestmentInvestmentsComponent"
-                }
+              "ViewAllButton": {
+                "$ref": "#/components/schemas/ButtonButtonComponent"
               }
             }
           }
@@ -5224,11 +5394,8 @@
               "$ref": "#/components/schemas/FlipPageFilpPageComponent"
             }
           },
-          "PastInvestment": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/PastInvestmentInvestmentsComponent"
-            }
+          "ViewAllButton": {
+            "$ref": "#/components/schemas/ButtonButtonComponent"
           },
           "createdAt": {
             "type": "string",
@@ -5935,16 +6102,25 @@
                 }
               }
             }
-          }
-        }
-      },
-      "PastInvestmentInvestmentsComponent": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "number"
           },
-          "Image": {
+          "Button": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "Name": {
+                  "type": "string"
+                },
+                "Url": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "Image2": {
             "type": "object",
             "properties": {
               "data": {
@@ -6083,7 +6259,55 @@
               }
             }
           },
-          "CompanyInfo": {
+          "Headquarter": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "Title": {
+                "type": "string"
+              },
+              "City": {
+                "type": "string"
+              },
+              "Country": {
+                "type": "string"
+              }
+            }
+          },
+          "Categories": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "Title": {
+                "type": "string"
+              },
+              "Name": {
+                "type": "string"
+              }
+            }
+          },
+          "InvestmentYear": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "Title": {
+                "type": "string"
+              },
+              "Year": {
+                "type": "string"
+              }
+            }
+          },
+          "InvestmentExperianceTitle": {
+            "type": "string"
+          },
+          "InvestorLogos": {
             "type": "array",
             "items": {
               "type": "object",
@@ -6091,7 +6315,7 @@
                 "id": {
                   "type": "number"
                 },
-                "CompanyLogo": {
+                "Logo": {
                   "type": "object",
                   "properties": {
                     "data": {
@@ -6229,441 +6453,6 @@
                       }
                     }
                   }
-                },
-                "InternetLogo": {
-                  "type": "object",
-                  "properties": {
-                    "data": {
-                      "type": "object",
-                      "properties": {
-                        "id": {
-                          "type": "number"
-                        },
-                        "attributes": {
-                          "type": "object",
-                          "properties": {
-                            "name": {
-                              "type": "string"
-                            },
-                            "alternativeText": {
-                              "type": "string"
-                            },
-                            "caption": {
-                              "type": "string"
-                            },
-                            "width": {
-                              "type": "integer"
-                            },
-                            "height": {
-                              "type": "integer"
-                            },
-                            "formats": {},
-                            "hash": {
-                              "type": "string"
-                            },
-                            "ext": {
-                              "type": "string"
-                            },
-                            "mime": {
-                              "type": "string"
-                            },
-                            "size": {
-                              "type": "number",
-                              "format": "float"
-                            },
-                            "url": {
-                              "type": "string"
-                            },
-                            "previewUrl": {
-                              "type": "string"
-                            },
-                            "provider": {
-                              "type": "string"
-                            },
-                            "provider_metadata": {},
-                            "related": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "array",
-                                  "items": {
-                                    "type": "object",
-                                    "properties": {
-                                      "id": {
-                                        "type": "number"
-                                      },
-                                      "attributes": {
-                                        "type": "object",
-                                        "properties": {}
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "folder": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "number"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "folderPath": {
-                              "type": "string"
-                            },
-                            "createdAt": {
-                              "type": "string",
-                              "format": "date-time"
-                            },
-                            "updatedAt": {
-                              "type": "string",
-                              "format": "date-time"
-                            },
-                            "createdBy": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "number"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "updatedBy": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "number"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
-                "Twitter": {
-                  "type": "object",
-                  "properties": {
-                    "data": {
-                      "type": "object",
-                      "properties": {
-                        "id": {
-                          "type": "number"
-                        },
-                        "attributes": {
-                          "type": "object",
-                          "properties": {
-                            "name": {
-                              "type": "string"
-                            },
-                            "alternativeText": {
-                              "type": "string"
-                            },
-                            "caption": {
-                              "type": "string"
-                            },
-                            "width": {
-                              "type": "integer"
-                            },
-                            "height": {
-                              "type": "integer"
-                            },
-                            "formats": {},
-                            "hash": {
-                              "type": "string"
-                            },
-                            "ext": {
-                              "type": "string"
-                            },
-                            "mime": {
-                              "type": "string"
-                            },
-                            "size": {
-                              "type": "number",
-                              "format": "float"
-                            },
-                            "url": {
-                              "type": "string"
-                            },
-                            "previewUrl": {
-                              "type": "string"
-                            },
-                            "provider": {
-                              "type": "string"
-                            },
-                            "provider_metadata": {},
-                            "related": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "array",
-                                  "items": {
-                                    "type": "object",
-                                    "properties": {
-                                      "id": {
-                                        "type": "number"
-                                      },
-                                      "attributes": {
-                                        "type": "object",
-                                        "properties": {}
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "folder": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "number"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "folderPath": {
-                              "type": "string"
-                            },
-                            "createdAt": {
-                              "type": "string",
-                              "format": "date-time"
-                            },
-                            "updatedAt": {
-                              "type": "string",
-                              "format": "date-time"
-                            },
-                            "createdBy": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "number"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "updatedBy": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "number"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
-                "LinkedIn": {
-                  "type": "object",
-                  "properties": {
-                    "data": {
-                      "type": "object",
-                      "properties": {
-                        "id": {
-                          "type": "number"
-                        },
-                        "attributes": {
-                          "type": "object",
-                          "properties": {
-                            "name": {
-                              "type": "string"
-                            },
-                            "alternativeText": {
-                              "type": "string"
-                            },
-                            "caption": {
-                              "type": "string"
-                            },
-                            "width": {
-                              "type": "integer"
-                            },
-                            "height": {
-                              "type": "integer"
-                            },
-                            "formats": {},
-                            "hash": {
-                              "type": "string"
-                            },
-                            "ext": {
-                              "type": "string"
-                            },
-                            "mime": {
-                              "type": "string"
-                            },
-                            "size": {
-                              "type": "number",
-                              "format": "float"
-                            },
-                            "url": {
-                              "type": "string"
-                            },
-                            "previewUrl": {
-                              "type": "string"
-                            },
-                            "provider": {
-                              "type": "string"
-                            },
-                            "provider_metadata": {},
-                            "related": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "array",
-                                  "items": {
-                                    "type": "object",
-                                    "properties": {
-                                      "id": {
-                                        "type": "number"
-                                      },
-                                      "attributes": {
-                                        "type": "object",
-                                        "properties": {}
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "folder": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "number"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "folderPath": {
-                              "type": "string"
-                            },
-                            "createdAt": {
-                              "type": "string",
-                              "format": "date-time"
-                            },
-                            "updatedAt": {
-                              "type": "string",
-                              "format": "date-time"
-                            },
-                            "createdBy": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "number"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "updatedBy": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "number"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                },
-                "Name": {
-                  "type": "string"
-                },
-                "AboutCompany": {
-                  "type": "string"
-                },
-                "Founder": {
-                  "type": "string"
-                },
-                "FounderName": {
-                  "type": "string"
-                },
-                "Button": {
-                  "type": "string"
-                },
-                "Url": {
-                  "type": "string"
                 }
               }
             }

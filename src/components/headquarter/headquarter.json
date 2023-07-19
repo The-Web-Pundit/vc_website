@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_headquarter_headquarters",
+  "info": {
+    "displayName": "Headquarter"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    }
+  }
+}
