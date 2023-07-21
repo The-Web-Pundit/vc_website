@@ -4,7 +4,8 @@
   "info": {
     "singularName": "investment-portfolio",
     "pluralName": "investment-portfolios",
-    "displayName": "Investment Portfolio"
+    "displayName": "Investment Portfolio",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,24 +19,26 @@
       "type": "richtext"
     },
     "FeatureImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "MainImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "WebsiteButton": {
       "type": "component",
@@ -65,6 +68,31 @@
       "type": "component",
       "repeatable": false,
       "component": "button.button"
+    },
+    "SubTitle": {
+      "type": "string"
+    },
+    "Founders": {
+      "displayName": "Founder",
+      "type": "component",
+      "repeatable": true,
+      "component": "founder.founder"
+    },
+    "FounderHeading": {
+      "type": "string"
+    },
+    "NewsHeading": {
+      "type": "string"
+    },
+    "CompanyLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
