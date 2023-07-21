@@ -11,6 +11,9 @@
     },
     "Desc": {
       "type": "richtext"
+    },
+    "slug": {
+      "type": "integer"
     }
   }
 }
