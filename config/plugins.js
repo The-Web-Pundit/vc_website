@@ -125,7 +125,7 @@ module.exports = ({ env }) => (
             "Times New Roman, Times, serif",
             "Trebuchet MS, Helvetica, sans-serif",
             "Verdana, Geneva, sans-serif",
-            "Poppins Regular,Poppins Medium ",
+            "Poppins Regular,Poppins Medium",
             'Georgia/Georgia, serif',
             'Comic Sans MS',
             "Roboto, Roboto Black, Roboto Medium, Roboto Light, sans-serif",
