@@ -59,6 +59,12 @@
       "relation": "manyToOne",
       "target": "api::company.company",
       "inversedBy": "posts"
+    },
+    "investment_portfolios": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::investment-portfolio.investment-portfolio",
+      "inversedBy": "posts"
     }
   }
 }
