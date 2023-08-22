@@ -13,10 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "BannerHeading": {
-      "type": "text"
-    },
-    "BannerDesc": {
-      "type": "text"
+      "type": "string"
     },
     "BannerImage": {
       "type": "media",
@@ -47,6 +44,20 @@
     },
     "InsightTitle": {
       "type": "string"
+    },
+    "BannerDescription": {
+      "type": "richtext"
+    },
+    "Featurecard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "featurecard.feature-card"
+    },
+    "Whyusheading": {
+      "type": "string"
+    },
+    "Whyusdescription": {
+      "type": "text"
     }
   }
 }
