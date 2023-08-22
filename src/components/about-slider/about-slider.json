@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_slider_about_sliders",
+  "info": {
+    "displayName": "About slider"
+  },
+  "options": {},
+  "attributes": {
+    "teamimages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
