@@ -276,16 +276,16 @@ module.exports = ({ env }) => (
     config: {
       provider: 'nodemailer',
       providerOptions: {
-        host: 'sandbox.smtp.mailtrap.io',
-        port: 2525,
+        host: 'smtp.gmail.com',
+        port: 587,
         auth: {
-          user: '4b61745517f157',
-          pass: '534265a4d83981'
+          user: 'vajintha1511@gmail.com',
+          pass: 'crrapqumrbfgzlcn'
         },
       },
       settings: {
-        defaultFrom: 'baddelamanikanta2@gmail.com',
-        defaultReplyTo: 'baddelamanikanta2@gmail.com',
+        defaultFrom: 'rohini.prasad@zysk.tech',
+        defaultReplyTo: 'rohini.prasad@zysk.tech',
       },
     },
   },

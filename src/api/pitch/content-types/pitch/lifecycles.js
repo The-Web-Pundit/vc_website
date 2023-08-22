@@ -3,9 +3,9 @@ module.exports = {
       const { result } = event;
       try {
         await strapi.plugins["email"].services.email.send({
-          to: "hello@z3partners.co",
-          from: "baddelamanikanta2@gmail.com",
-          replyTo: "baddelamanikanta2@gmail.com",
+          to: "prohiniprasad1407@gmail.com",
+          from: "rohini.prasad@zysk.tech",
+          replyTo: "rohini.prasad@zysk.tech",
           subject: "New Pitch form submission from Z3Partners Website",
           html: `
                 Name :  ${result.Name}  <br/>
