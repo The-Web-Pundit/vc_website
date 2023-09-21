@@ -5,24 +5,30 @@ module.exports = ({ env }) => (
     config: {
       provider: 'aws-s3',
       providerOptions: {
-        accessKeyId: env('AWS_ACCESS_KEY_ID'),
-        secretAccessKey: env('AWS_ACCESS_SECRET'),
-        region: env('AWS_REGION'),
+        s3Options:{
+        accessKeyId: env('AWS_ACCESS_KEY_ID','AKIAXEXE3STWPI6YITK6'),
+        secretAccessKey: env('AWS_ACCESS_SECRET','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'),
+        region: env('AWS_REGION','ap-south-1'),
         params: {
           ACL: env('AWS_ACL', 'public-read'),
           signedUrlExpires: env('AWS_SIGNED_URL_EXPIRES', 15 * 60),
-          Bucket: env('AWS_BUCKET'),
+          Bucket: env('AWS_BUCKET','z-3-dev'),
         },
       },
+    },
       actionOptions: {
         upload: {},
         uploadStream: {},
         delete: {},
       },
+       settings:{
+        formidable:{
+          maxFileSize:200*1024*1024
+        }
+      }
     },
   },
   // ...
-
   ckeditor: {
     enabled: true,
     config: {
@@ -276,16 +282,16 @@ module.exports = ({ env }) => (
     config: {
       provider: 'nodemailer',
       providerOptions: {
-        host: 'sandbox.smtp.mailtrap.io',
-        port: 2525,
-        auth: {
-          user: '4b61745517f157',
-          pass: '534265a4d83981'
-        },
+        host: env('SMTP_HOST', 'sandbox.smtp.mailtrap.io'),
+          port: env('SMTP_PORT', 2525),
+          auth: {
+            user: env('SMTP_USER','80c58227315c70'),
+            pass: env('SMTP_PASS','e8057f9deb0292'),
+          },
       },
       settings: {
-        defaultFrom: 'baddelamanikanta2@gmail.com',
-        defaultReplyTo: 'baddelamanikanta2@gmail.com',
+        defaultFrom: 'rohini.prasad@zysk.tech',
+        defaultReplyTo: 'gamatam.vajintha@zysk.tech',
       },
     },
   },
