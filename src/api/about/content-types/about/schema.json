@@ -82,7 +82,7 @@
       },
       "component": "features.our-partners"
     },
-    "OurPartners": {
+    "teamimages": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -90,7 +90,7 @@
           "localized": true
         }
       },
-      "component": "our-partner.our-partners"
+      "component": "about-slider.about-slider"
     }
   }
 }
