@@ -291,7 +291,7 @@ module.exports = ({ env }) => (
       },
       settings: {
         defaultFrom: 'rohini.prasad@zysk.tech',
-        defaultReplyTo: 'gamatam.vajintha@zysk.tech',
+        defaultReplyTo: 'sampath@zysk.tech',
       },
     },
   },
