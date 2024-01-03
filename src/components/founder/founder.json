@@ -1,14 +1,15 @@
 {
   "collectionName": "components_founder_founders",
   "info": {
-    "displayName": "Founder"
+    "displayName": "Founder",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Name": {
       "type": "string"
     },
-    "Role": {
+    "Linkedin": {
       "type": "string"
     }
   }

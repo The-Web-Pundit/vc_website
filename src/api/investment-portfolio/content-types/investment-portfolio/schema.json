@@ -95,11 +95,11 @@
         "audios"
       ]
     },
-    "posts": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::post.post",
-      "mappedBy": "investment_portfolios"
+    "Founded": {
+      "type": "string"
+    },
+    "Enterprise": {
+      "type": "string"
     }
   }
 }

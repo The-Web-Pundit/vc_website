@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_logos_investments",
+  "info": {
+    "displayName": "Investments"
+  },
+  "options": {},
+  "attributes": {
+    "Logos": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

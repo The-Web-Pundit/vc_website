@@ -55,6 +55,9 @@
     },
     "About2": {
       "type": "richtext"
+    },
+    "AboutHeading": {
+      "type": "richtext"
     }
   }
 }

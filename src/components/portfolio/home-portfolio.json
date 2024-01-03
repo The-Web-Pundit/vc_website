@@ -1,30 +1,37 @@
 {
   "collectionName": "components_portfolio_home_portfolios",
   "info": {
-    "displayName": "Home Portfolio"
+    "displayName": "Home Portfolio",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
-    "SubTitle": {
-      "type": "text"
-    },
     "Button": {
       "type": "component",
       "repeatable": false,
       "component": "button.button"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
+      ]
+    },
+    "Logo": {
       "type": "media",
-      "multiple": false
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Description": {
+      "type": "richtext"
     }
   }
 }

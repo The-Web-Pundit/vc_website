@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_milestones_milesones",
+  "info": {
+    "displayName": "Milesones"
+  },
+  "options": {},
+  "attributes": {
+    "Year": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

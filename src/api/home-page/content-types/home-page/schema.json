@@ -58,6 +58,26 @@
     },
     "Whyusdescription": {
       "type": "text"
+    },
+    "Banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner"
+    },
+    "Logos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "logos.investments"
+    },
+    "Portfolio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.home-portfolio"
+    },
+    "Milestones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "milestones.milesones"
     }
   }
 }

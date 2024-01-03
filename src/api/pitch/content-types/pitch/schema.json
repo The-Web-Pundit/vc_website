@@ -12,23 +12,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "FirstName": {
       "type": "string",
       "required": true
     },
+    "LastName": {
+      "type": "string"
+    },
     "Email": {
-      "type": "email",
-      "required": true
+      "type": "email"
     },
-    "LinkedIn": {
-      "type": "string"
-    },
-    "Company": {
-      "type": "string"
-    },
-    "Idea": {
-      "type": "richtext",
-      "required": true
+    "Message": {
+      "type": "richtext"
     }
   }
 }

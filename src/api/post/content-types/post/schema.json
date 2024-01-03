@@ -60,14 +60,22 @@
       "target": "api::company.company",
       "inversedBy": "posts"
     },
-    "investment_portfolios": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::investment-portfolio.investment-portfolio",
-      "inversedBy": "posts"
-    },
     "Podcastlink": {
       "type": "text"
+    },
+    "Desc1": {
+      "type": "text"
+    },
+    "Content": {
+      "type": "string"
+    },
+    "ContentType": {
+      "type": "enumeration",
+      "enum": [
+        "Link",
+        "Youtube",
+        "Podcast"
+      ]
     }
   }
 }
