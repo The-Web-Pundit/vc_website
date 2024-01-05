@@ -12,43 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Heading": {
-      "type": "string"
-    },
-    "FilterImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "Filter": {
-      "type": "string"
-    },
     "Tags": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tag.tag"
     },
-    "Button": {
+    "Banner": {
       "type": "component",
-      "repeatable": false,
-      "component": "button.button"
-    },
-    "BackgroundImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "repeatable": true,
+      "component": "banner.banner"
     }
   }
 }

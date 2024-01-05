@@ -12,13 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Heading": {
-      "type": "text"
-    },
     "Desc": {
       "type": "richtext"
     },
-    "CurrentInvestmentsTitle": {
+    "InvestmentsTitle": {
       "type": "string"
     },
     "PastInvestmentTitle": {
@@ -28,6 +25,11 @@
       "type": "component",
       "repeatable": true,
       "component": "card.card"
+    },
+    "Banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner"
     }
   }
 }

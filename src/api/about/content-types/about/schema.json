@@ -32,23 +32,7 @@
         }
       }
     },
-    "Image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "ImageHeading": {
+    "Heading1": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -64,15 +48,7 @@
         }
       }
     },
-    "Partner": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "Features": {
+    "Process": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -80,9 +56,9 @@
           "localized": true
         }
       },
-      "component": "features.our-partners"
+      "component": "process.process"
     },
-    "teamimages": {
+    "Banner": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -90,7 +66,7 @@
           "localized": true
         }
       },
-      "component": "about-slider.about-slider"
+      "component": "banner.banner"
     }
   }
 }

@@ -12,52 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "BannerHeading": {
-      "type": "string"
-    },
-    "BannerImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "BannerButton": {
-      "displayName": "Button",
-      "type": "component",
-      "repeatable": false,
-      "component": "button.button"
-    },
-    "Section1Heading": {
-      "type": "text"
-    },
-    "Section1Desc": {
-      "type": "text"
-    },
     "OurPortfolioTitle": {
       "type": "string",
       "default": "Our Portfolio"
     },
     "InsightTitle": {
       "type": "string"
-    },
-    "BannerDescription": {
-      "type": "richtext"
-    },
-    "Featurecard": {
-      "type": "component",
-      "repeatable": true,
-      "component": "featurecard.feature-card"
-    },
-    "Whyusheading": {
-      "type": "string"
-    },
-    "Whyusdescription": {
-      "type": "text"
     },
     "Banner": {
       "type": "component",
@@ -78,6 +38,34 @@
       "type": "component",
       "repeatable": true,
       "component": "milestones.milesones"
+    },
+    "OurTeam": {
+      "type": "string"
+    },
+    "Teamdescription": {
+      "type": "richtext"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "Process": {
+      "type": "component",
+      "repeatable": true,
+      "component": "process.process"
     }
   }
 }

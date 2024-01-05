@@ -12,41 +12,27 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Heading": {
-      "type": "string"
-    },
-    "BackgroundImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "Desc": {
       "type": "richtext"
     },
-    "Filter": {
+    "TeamHeading": {
       "type": "string"
     },
-    "Categories": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::category.category"
-    },
-    "FilterImage": {
+    "teamimages": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "Banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner"
     }
   }
 }

@@ -17,13 +17,16 @@
       "required": true
     },
     "LastName": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Email": {
-      "type": "email"
+      "type": "email",
+      "required": true
     },
     "Message": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }

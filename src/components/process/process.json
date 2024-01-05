@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_process_processes",
+  "info": {
+    "displayName": "Process"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}
