@@ -10,7 +10,7 @@
       "type": "string",
       "default": "Read More"
     },
-    "Url": {
+    "WebsiteLink": {
       "type": "string"
     }
   }

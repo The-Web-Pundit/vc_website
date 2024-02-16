@@ -12,26 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
-    "SubTitle": {
-      "type": "string"
-    },
-    "FormTitle": {
-      "type": "string"
-    },
-    "ContactFormTitle": {
-      "type": "string"
-    },
-    "PitchFormTitle": {
-      "type": "string"
-    },
-    "Button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "button.button"
-    },
     "Banner": {
       "type": "component",
       "repeatable": true,

@@ -37,22 +37,6 @@
     "About1": {
       "type": "richtext"
     },
-    "PopUpImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "SocialLogo": {
-      "type": "component",
-      "repeatable": true,
-      "component": "logo.logo"
-    },
     "About2": {
       "type": "richtext"
     },

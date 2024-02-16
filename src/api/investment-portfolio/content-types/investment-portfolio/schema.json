@@ -29,48 +29,10 @@
         "audios"
       ]
     },
-    "MainImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "WebsiteButton": {
       "type": "component",
       "repeatable": false,
       "component": "button.button"
-    },
-    "Headquarter": {
-      "type": "component",
-      "repeatable": false,
-      "component": "headquarter.headquarter"
-    },
-    "slug": {
-      "type": "uid",
-      "targetField": "Title"
-    },
-    "Categories": {
-      "type": "component",
-      "repeatable": false,
-      "component": "categories.categories"
-    },
-    "InvestmentYear": {
-      "type": "component",
-      "repeatable": false,
-      "component": "investment.investment"
-    },
-    "ViewAllButton": {
-      "type": "component",
-      "repeatable": false,
-      "component": "button.button"
-    },
-    "SubTitle": {
-      "type": "string"
     },
     "Founders": {
       "displayName": "Founder",
@@ -79,9 +41,6 @@
       "component": "founder.founder"
     },
     "FounderHeading": {
-      "type": "string"
-    },
-    "NewsHeading": {
       "type": "string"
     },
     "CompanyLogo": {
