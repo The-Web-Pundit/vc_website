@@ -18,11 +18,6 @@
     "Role": {
       "type": "string"
     },
-    "Category": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::category.category"
-    },
     "ColorImage": {
       "type": "media",
       "multiple": false,

@@ -1,16 +1,21 @@
 {
   "collectionName": "components_logos_investments",
   "info": {
-    "displayName": "Investments"
+    "displayName": "Investments",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Logos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "Logotitle": {
+      "type": "string"
     }
   }
 }
